@@ -9,7 +9,7 @@ from Common.logs import logging
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-with open(os.getcwd() + "/Configuration/host_header.yaml", 'rb') as f:
+with open(os.getcwd()[:-5] + "/Configuration/host_header.yaml", 'rb') as f:
     data = yaml.load(f)
 host = data["host"]   #获取到url
 header = data["headers"]  #获取到host
@@ -18,6 +18,7 @@ class todo:
 
     def __init__(self):
         self.log = logging
+
 
     def test_create_todo(self):
         url = host+"todo/create"

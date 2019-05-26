@@ -9,19 +9,19 @@ import yaml,sys,os
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-root_path = os.getcwd()
+root_path = os.getcwd()[:-5]
 with open(root_path + "/Configuration/host_header.yaml", 'rb') as f:
     data = yaml.load(f)
 host = data["host"]
 
 class login:
-
     gol._init()
 
     def __init__(self):
         self.log = logging
 
     def test_login(self):
+
         url = host+"user/login"   #接口
 
         data = {

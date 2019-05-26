@@ -7,7 +7,7 @@ date:2017/6/12
 import logging
 import os
 
-Log_FileName = os.getcwd()+'/Result/Run_logs'      #获取到当前文件的目录，并检查是否有Result/Run_logs文件夹，如果不存在则自动新建此文件
+Log_FileName = os.getcwd()[:-5]+'/Result/Run_logs'      #获取到当前文件的目录，并检查是否有Result/Run_logs文件夹，如果不存在则自动新建此文件
 if not os.path.exists(Log_FileName):
     os.makedirs(Log_FileName)
 else:

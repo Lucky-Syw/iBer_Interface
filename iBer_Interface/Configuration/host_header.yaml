@@ -1,5 +1,5 @@
 #请求接口的url的域名
-host: https://dev1app.goodiber.com/v2/
+host: https://dev1app.goodiber.com/v2/   #dev1的测试环境域名
 
 #请求接口的请求头中的共用参数
 headers:
