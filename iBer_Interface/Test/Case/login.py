@@ -5,6 +5,7 @@ import unittest
 from Test.Module.login.login import login
 
 class C_login(unittest.TestCase):
+    '''登录'''
 
     def setUp(self):
         pass
@@ -13,7 +14,7 @@ class C_login(unittest.TestCase):
         pass
 
     def test_01_login(self):
-        '''登录'''
+        '''登录操作'''
         a = login()
         a.test_login()
 
