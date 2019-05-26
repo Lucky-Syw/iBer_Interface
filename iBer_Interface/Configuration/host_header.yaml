@@ -1,0 +1,11 @@
+#请求接口的url的域名
+host: https://dev1app.goodiber.com/v2/
+
+#请求接口的请求头中的共用参数
+headers:
+  "version": "2.3.0"
+  "version-id": "235"
+  "os": "ios"
+  "sign": "123456"
+  "is-test": "1"
+
