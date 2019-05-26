@@ -33,7 +33,7 @@ class todo:
             "repeat_tyep": "0",
             "c_user_uuid": ""
         }
-        headers = header
+        headers = header  #获取公共的请求头
         headers.update(uuid=gol.get_value("uuid"),token=gol.get_value("token"))
         r = requests.post(url=url, data=data, headers=headers, verify=False)
         self.log.info("创建待办成功，如下是reponse返回的内容")

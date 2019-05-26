@@ -13,6 +13,8 @@ root_path = os.getcwd()[:-5]
 with open(root_path + "/Configuration/host_header.yaml", 'rb') as f:
     data = yaml.load(f)
 host = data["host"]
+get_headers = data["headers"]
+logging.info(get_headers)
 
 class login:
     gol._init()
@@ -44,14 +46,26 @@ class login:
         }
 
         r = requests.post(url=url, data=data, headers=headers, verify=False)
-        uuid = str(r.json()["data"]["uuid"])
-        gol.set_value("uuid", uuid)
-        token = str(r.json()["data"]["token"])
-        gol.set_value("token", token)
-        version = "2.2.1"
-        version_id = "232"
 
-        self.log.info("登录成功，如下是reponse返回的内容")
-        self.log.info(r.text)
+        '''
+        判断：
+        1、根据reponse中的某个值来判断接口返回是否成功，
+        2、成功的情况下，再次去获取uuid等值。
+        '''
+
+        if str(r.json()["msg"]) == "SUCCESS":
+            self.log.info("登录成功")
+            uuid = str(r.json()["data"]["uuid"])
+            gol.set_value("uuid", uuid)
+            token = str(r.json()["data"]["token"])
+            gol.set_value("token", token)
+            version = get_headers["version"]
+            version_id = get_headers["version-id"]
+        else:
+            self.log.error("登录失败")
+            raise  False
+
+        self.log.info(r.json())  #打印的reponse返回的所有内容
+
 
 
