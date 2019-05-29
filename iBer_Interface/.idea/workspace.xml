@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f563947-e34c-48bb-b6d1-7fda6bc061a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration/host_header.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Config/host_header.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Docs/Operation_guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Operation_guide.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Module/Todo/Create_todo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Module/Todo/Create_todo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Module/Todo/Todo_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Module/Todo/Todo_report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/Module/login/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Module/login/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Run_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/Run_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,15 +20,22 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$Unittests_in_Run_Test_py.coverage" NAME="Unittests in Run_Test.py Coverage Results" MODIFIED="1558522217966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/iBer_Interface$readConfig__1_.coverage" NAME="readConfig (1) Coverage Results" MODIFIED="1559125318494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Configuration" />
+    <SUITE FILE_PATH="coverage/iBer_Interface$email_L.coverage" NAME="email_L Coverage Results" MODIFIED="1559133174712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$login.coverage" NAME="login Coverage Results" MODIFIED="1558524705825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module/login" />
+    <SUITE FILE_PATH="coverage/iBer_Interface$Unittests_in_Run_Test_py.coverage" NAME="Unittests in Run_Test.py Coverage Results" MODIFIED="1559133438369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$logs.coverage" NAME="logs Coverage Results" MODIFIED="1558528580357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Common" />
+    <SUITE FILE_PATH="coverage/iBer_Interface$Run_Test__1_.coverage" NAME="Run_Test (1) Coverage Results" MODIFIED="1559132964563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+    <SUITE FILE_PATH="coverage/iBer_Interface$readConfig.coverage" NAME="readConfig Coverage Results" MODIFIED="1559124546085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$todo.coverage" NAME="todo Coverage Results" MODIFIED="1558356423934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$Create_todo.coverage" NAME="Create_todo Coverage Results" MODIFIED="1558525390494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module/Todo" />
-    <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$login.coverage" NAME="login Coverage Results" MODIFIED="1558524705825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module/login" />
     <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$test.coverage" NAME="test Coverage Results" MODIFIED="1558619167366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$Unittests_for_todo_todo_test_create_todo.coverage" NAME="Unittests for todo.todo.test_create_todo Coverage Results" MODIFIED="1557926976146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$Unittests_for_Run_Test_run.coverage" NAME="Unittests for Run_Test.run Coverage Results" MODIFIED="1558529191131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/iBer_Interface_Test_Ev$Run_Test.coverage" NAME="Run_Test Coverage Results" MODIFIED="1558530807581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/iBer_Interface$Unittests_in_Run_Test_py.coverage" NAME="Unittests in Run_Test.py Coverage Results" MODIFIED="1558869732526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="iBer_Interface" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -31,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/Test/Case/login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="e#38#53#0" expanded="true" />
               </folding>
@@ -42,47 +54,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Case/Todo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding>
-                <element signature="e#38#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Module/Todo/Todo_report.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="31" />
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
                 <element signature="e#38#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test/Module/login/login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="57" column="48" lean-forward="true" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
-              <folding>
-                <element signature="e#37#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Docs/Operation_guide.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="148">
-                <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Test/Run_Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="20" column="84" lean-forward="true" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+              <folding>
+                <element signature="e#38#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Common/email_L.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="60" column="39" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="39" />
+              <folding>
+                <element signature="e#38#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Config/email/cfg.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -122,8 +131,6 @@
         <option value="$PROJECT_DIR$/Run_Test.py" />
         <option value="/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/MySQL-python-1.2.5/setup_posix.py" />
         <option value="/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/MySQL-python-1.2.5/site.cfg" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/Configuration/host_header.yaml" />
         <option value="$PROJECT_DIR$/Case/Case_together.py" />
         <option value="$PROJECT_DIR$/Case/login.py" />
         <option value="$PROJECT_DIR$/Case/Todo.py" />
@@ -132,20 +139,29 @@
         <option value="$PROJECT_DIR$/Test/Case/Z_Case_Collects.py" />
         <option value="$PROJECT_DIR$/Test/Case/Z_Case_collects.py" />
         <option value="$PROJECT_DIR$/Common/logs.py" />
-        <option value="$PROJECT_DIR$/Test/Run_Test.py" />
         <option value="$PROJECT_DIR$/Test/Case/login.py" />
         <option value="$PROJECT_DIR$/Test/Case/Todo.py" />
-        <option value="$PROJECT_DIR$/Test/Module/Todo/Create_todo.py" />
-        <option value="$PROJECT_DIR$/Test/Module/login/login.py" />
-        <option value="$PROJECT_DIR$/Test/Module/Todo/Todo_report.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Docs/Operation_guide.md" />
+        <option value="$PROJECT_DIR$/config/cfg.ini" />
+        <option value="$PROJECT_DIR$/config/readConfig.py" />
+        <option value="$PROJECT_DIR$/Configuration/host_header.yaml" />
+        <option value="$PROJECT_DIR$/Test/Module/login/login.py" />
+        <option value="$PROJECT_DIR$/Test/Module/Todo/Create_todo.py" />
+        <option value="$PROJECT_DIR$/Test/Module/Todo/Todo_report.py" />
+        <option value="$PROJECT_DIR$/Config/email/readConfig.py" />
+        <option value="$PROJECT_DIR$/Common/email.py" />
+        <option value="$PROJECT_DIR$/Common/C_email.py" />
+        <option value="$PROJECT_DIR$/Common/Email.py" />
+        <option value="$PROJECT_DIR$/Common/email_L.py" />
+        <option value="$PROJECT_DIR$/Config/email/cfg.ini" />
+        <option value="$PROJECT_DIR$/Test/Run_Test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="75" />
-    <option name="width" value="1459" />
+    <option name="y" value="39" />
+    <option name="width" value="1440" />
     <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -154,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,17 +180,12 @@
             <path>
               <item name="iBer_Interface" type="b2602c69:ProjectViewProjectNode" />
               <item name="iBer_Interface" type="462c0819:PsiDirectoryNode" />
-              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iBer_Interface" type="b2602c69:ProjectViewProjectNode" />
               <item name="iBer_Interface" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iBer_Interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iBer_Interface" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iBer_Interface" type="b2602c69:ProjectViewProjectNode" />
@@ -186,26 +196,13 @@
               <item name="iBer_Interface" type="b2602c69:ProjectViewProjectNode" />
               <item name="iBer_Interface" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iBer_Interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iBer_Interface" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="iBer_Interface" type="b2602c69:ProjectViewProjectNode" />
-              <item name="iBer_Interface" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="Module" type="462c0819:PsiDirectoryNode" />
-              <item name="Todo" type="462c0819:PsiDirectoryNode" />
+              <item name="Case" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,18 +213,19 @@
     <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Test/Module" />
-      <recent name="$PROJECT_DIR$/Test" />
-      <recent name="$PROJECT_DIR$/Docs" />
-      <recent name="$PROJECT_DIR$/Configuration" />
-      <recent name="$PROJECT_DIR$/Module/Todo" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Common/email" />
+      <recent name="$PROJECT_DIR$/Configuration/email" />
       <recent name="$PROJECT_DIR$/Module/Todo/Create_todo" />
       <recent name="$PROJECT_DIR$/Module/Todo" />
       <recent name="$PROJECT_DIR$/Module/login" />
-      <recent name="$PROJECT_DIR$/Common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Configuration" />
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/Test/Module" />
+      <recent name="$PROJECT_DIR$/Test" />
+      <recent name="$PROJECT_DIR$/Docs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -243,7 +241,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in Run_Test.py">
-    <configuration name="Run_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Run_Test (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="iBer_Interface_Test_Ev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,12 +249,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Run_Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/Run_Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,7 +263,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="email_L" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="iBer_Interface_Test_Ev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,7 +276,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/logs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Common/email_L.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readConfig (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="iBer_Interface_Test_Ev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Configuration" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Configuration/email/readConfig.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readConfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="iBer_Interface_Test_Ev" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/readConfig.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,21 +351,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Run_Test.run" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="iBer_Interface_Test_Ev" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Run_Test.run&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in Run_Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="iBer_Interface_Test_Ev" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,10 +369,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in Run_Test.py" />
+        <item itemvalue="Python.email_L" />
+        <item itemvalue="Python.readConfig (1)" />
+        <item itemvalue="Python.readConfig" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.Run_Test" />
-        <item itemvalue="Python tests.Unittests for Run_Test.run" />
-        <item itemvalue="Python.logs" />
       </list>
     </recent_temporary>
   </component>
@@ -362,56 +389,56 @@
       <workItem from="1557738633014" duration="11323000" />
       <workItem from="1557923057482" duration="32583000" />
       <workItem from="1558844125730" duration="2012000" />
-      <workItem from="1558847494390" duration="12867000" />
+      <workItem from="1558847494390" duration="13142000" />
+      <workItem from="1559046178915" duration="12766000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 40m 04s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 19h 54m 47s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 40m 31s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 19h 55m 16s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 40m 56s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 19h 55m 53s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 41m 37s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 19h 56m 07s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 42m 17s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 19h 56m 20s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 43m 02s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 19h 57m 26s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 43m 44s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 20h 01m 47s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 46m 48s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 20h 33m 46s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 47m 46s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 20h 35m 17s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_Run_Test_py - 2019.05.26 at 18h 48m 20s.xml">
+    <history-entry file="Unittests_in_Run_Test_py - 2019.05.29 at 20h 37m 22s.xml">
       <configuration name="Unittests in Run_Test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58785000" />
+    <option name="totallyTimeSpent" value="71826000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="75" width="1459" height="815" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="39" width="1440" height="815" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17501764" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49930844" visible="true" weight="0.24821173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5006916" side_tool="true" weight="0.15665236" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.099585064" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972338" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5656985" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7330567" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.041493777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -419,7 +446,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32918397" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -467,7 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Config/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Module/lRun_logs/log.txt" />
@@ -485,13 +512,6 @@
     <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/MySQL-python-1.2.5/_mysql.c" />
     <entry file="file://$PROJECT_DIR$/Module/login/login.py" />
     <entry file="file://$PROJECT_DIR$/Module/Todo/Create_todo.py" />
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Case/login.py" />
     <entry file="file://$PROJECT_DIR$/Case/Todo.py" />
     <entry file="file://$PROJECT_DIR$/Run_Test.py" />
@@ -513,16 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Module/Todo/Create_todo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="e#37#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/Case/Z_Case_collects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -533,37 +543,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Case/Todo.py">
+    <entry file="file://$PROJECT_DIR$/config/readConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="390">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
-            <element signature="e#38#53#0" expanded="true" />
+            <element signature="e#38#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Run_Test.py">
+    <entry file="file://$PROJECT_DIR$/Docs/Operation_guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cfg.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/email/readConfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
           <folding>
-            <element signature="e#38#53#0" expanded="true" />
+            <element signature="e#45#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Configuration/host_header.yaml">
+    <entry file="file://$PROJECT_DIR$/Common/email/email.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/host_header.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C/Result/Run_logs/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/Module/login/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="57" column="48" lean-forward="true" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        <state relative-caret-position="-431">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#37#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Module/Todo/Todo_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#38#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Module/Todo/Create_todo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#37#52#0" expanded="true" />
           </folding>
@@ -573,30 +633,47 @@
     <entry file="file://$PROJECT_DIR$/Test/Case/login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="e#38#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test/Module/Todo/Todo_report.py">
+    <entry file="file://$PROJECT_DIR$/Test/Case/Todo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="31" />
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
           <folding>
             <element signature="e#38#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Docs/Operation_guide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="148">
-            <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Common/email_L.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="39" />
+          <folding>
+            <element signature="e#38#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Config/email/cfg.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Run_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="20" column="84" lean-forward="true" selection-start-line="20" selection-start-column="84" selection-end-line="20" selection-end-column="84" />
+          <folding>
+            <element signature="e#38#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

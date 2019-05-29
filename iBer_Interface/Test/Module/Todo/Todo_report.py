@@ -10,7 +10,7 @@ import yaml,sys,os
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-with open(os.getcwd()[:-5] + "/Configuration/host_header.yaml", 'rb') as f:
+with open(os.getcwd()[:-5] + "/Config/host_header.yaml", 'rb') as f:
     data = yaml.load(f)
 host = data["host"]   #获取到url
 header = data["headers"]  #获取到host

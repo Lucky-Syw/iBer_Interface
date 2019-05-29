@@ -4,6 +4,8 @@ markdown常用操作：换行：用2个空格+回车，代码段注释： ``` �
     安装方法：pip install xxxx
     1、requests  
     2、logs  
+    3、config
+    4、email
     
     
 #框架介绍

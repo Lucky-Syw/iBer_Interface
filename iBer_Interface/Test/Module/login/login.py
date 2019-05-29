@@ -10,7 +10,7 @@ reload(sys)
 sys.setdefaultencoding("utf-8")
 
 root_path = os.getcwd()[:-5]
-with open(root_path + "/Configuration/host_header.yaml", 'rb') as f:
+with open(root_path + "/Config/host_header.yaml", 'rb') as f:
     data = yaml.load(f)
 host = data["host"]
 get_headers = data["headers"]
