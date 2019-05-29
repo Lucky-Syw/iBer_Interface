@@ -44,7 +44,7 @@ class email_L:
        # 定义邮件内容
        msg = MIMEMultipart()
        body = MIMEText(mail_body, _subtype="html", _charset="utf-8")
-       msg['subject'] = u"iBer接口自动化测试报告"
+       msg['subject'] = u"【Fail】iBer接口自动化测试报告"
        msg['from'] = sender
        msg['to'] = psw
        msg.attach(body)
@@ -78,6 +78,4 @@ class email_L:
         smtp_server = readConfig.smtp_server
         port = readConfig.port
         receiver = readConfig.receiver
-        logging.info(receiver)
-        logging.info("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
         self.send_mail(sender, psw, receiver, smtp_server, report_file, port)  # 发送报告
