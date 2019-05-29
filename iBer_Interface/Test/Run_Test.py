@@ -36,10 +36,10 @@ class run(unittest.TestCase):
       y = email_L()
       #y.test_run()    #无论成功失败均发送邮件
 
-      # 如下判断：有失败用例时进行发送邮件，执行全部成功不发邮件
       if result.success_count != Common.HTMLTestRunner2.HTMLTestRunner.total:
-         y.test_run()
+         y.test_run(status = "FAIL")   #接口用例有执行失败，则发送的邮件标题中会标出【Fail】
       else:
+         y.test_run(status="PASS")  #与上面反之，标注【Pass】
          logging.error("全部用例已执行成功，因此未发送邮件！！！！")
 
 

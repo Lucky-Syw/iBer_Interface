@@ -26,7 +26,7 @@ class email_L:
        report_file = os.path.join(report_path, lists[-1])
        return report_file
 
-    def send_mail(self,sender, psw, receiver, smtpserver, report_file, port):
+    def send_mail(self,sender, psw, receiver, smtpserver, report_file, port,status):
        '''
        用途：发送最新的测试报告
        参数介绍：
@@ -44,7 +44,7 @@ class email_L:
        # 定义邮件内容
        msg = MIMEMultipart()
        body = MIMEText(mail_body, _subtype="html", _charset="utf-8")
-       msg['subject'] = u"【Fail】iBer接口自动化测试报告"
+       msg['subject'] = u"【%s】iBer接口自动化测试报告"%status
        msg['from'] = sender
        msg['to'] = psw
        msg.attach(body)
@@ -68,7 +68,7 @@ class email_L:
        receiver = readConfig.receiver
        logging.info("已发送的邮箱： %s" %receiver)
 
-    def test_run(self):
+    def test_run(self,status):
         '''如上2个方法的集合整理方法'''
 
         report_file = self.get_Report_file(report_path)
@@ -78,4 +78,4 @@ class email_L:
         smtp_server = readConfig.smtp_server
         port = readConfig.port
         receiver = readConfig.receiver
-        self.send_mail(sender, psw, receiver, smtp_server, report_file, port)  # 发送报告
+        self.send_mail(sender, psw, receiver, smtp_server, report_file, port,status)  # 发送报告
