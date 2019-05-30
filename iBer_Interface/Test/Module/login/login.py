@@ -45,7 +45,7 @@ class login:
             "sign": "a81b4379f504f330e83792ce2015e629"
         }
 
-        r = requests.post(url=url, data=data, headers=headers, verify=False)
+        r = requests.post(url=url, data=data, headers=headers, verify=False,timeout = 3)
 
         '''
         判断：
@@ -65,6 +65,7 @@ class login:
             self.log.error("登录失败")
             raise  False
 
+        self.log.info("请求此接口的响应时间："+str(r.elapsed.total_seconds()))
         self.log.info(r.json())  #打印的reponse返回的所有内容
 
 
