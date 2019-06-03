@@ -16,7 +16,7 @@ if sys.getdefaultencoding() != 'utf-8':
 
 sender = "lucky@iberhk.com"
 psw = "A1q2w3e4r"
-receiver = ['904199561@qq.com']
+receiver = '904199561@qq.com'
 smtp_server = "smtp.exmail.qq.com"
 Port = "465"
 
@@ -88,7 +88,7 @@ class email_L:
         # smtp_server = readConfig.smtp_server
         # port = readConfig.port
         # receiver = readConfig.receiver
-        self.send_mail(sender, psw, receiver, smtp_server, report_file, Port,status)  # 发送报告
+        self.send_mail(sender, psw, receiver.split(','), smtp_server, report_file, Port,status)  # 发送报告
 
 if __name__ == "__main__":
     a = email_L()

@@ -77,5 +77,5 @@ class email_L:
         psw = readConfig.psw
         smtp_server = readConfig.smtp_server
         port = readConfig.port
-        receiver = readConfig.receiver
+        receiver = readConfig.receiver.split(',')
         self.send_mail(sender, psw, receiver, smtp_server, report_file, port,status)  # 发送报告
