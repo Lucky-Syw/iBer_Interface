@@ -7,6 +7,7 @@ from Common.logs import logging
 from Test.Case.Z_Case_collects import suite
 import Common.HTMLTestRunner2
 from Common.email_L import email_L
+import xlwt
 
 class run(unittest.TestCase):
 
@@ -21,7 +22,7 @@ class run(unittest.TestCase):
       runner = Common.HTMLTestRunner2.HTMLTestRunner(stream=Report_FileName, title="接口测试报告",
                                                   description="用例执行情况:",verbosity=2)   #verbosity=2:将会取到方法名下的注释内容
 
-      result = runner.run(suite)  ## suite为Case_Gathers.py中的suite，用法：将case中的suite添加到报告中生成
+      runner.run(suite)  ## suite为Case_Gathers.py中的suite，用法：将case中的suite添加到报告中生成
 
       Report_FileName.close()
 
@@ -43,6 +44,9 @@ class run(unittest.TestCase):
       #    y.test_run(status="PASS")  #与上面反之，标注【Pass】
       #    logging.error("用例执行全部成功，请查看邮件！！！！")
 
+###########################测试结束，将txt文件中内容写入到Excel中######################################
+      from Common.API_reponseTime.write_reponseTime_xls import write_xls
+      write_xls()
 
 if __name__ == "__main__":
    unittest.main()
