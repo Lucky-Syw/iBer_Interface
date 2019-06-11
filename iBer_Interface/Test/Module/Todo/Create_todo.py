@@ -2,7 +2,8 @@
 # coding=UTF-8
 import requests
 from Common import gol
-import yaml,sys,os
+import yaml
+import sys,os
 from Common.logs import logging
 
 # 导入yaml中的host
@@ -13,6 +14,8 @@ with open(os.getcwd()[:-5] + "/Config/host_header.yaml", 'rb') as f:
     data = yaml.load(f)
 host = data["host"]   #获取到url
 header = data["headers"]  #获取到host
+timeout = data["timeout"]
+logging.info(header)
 
 class todo:
 
@@ -35,8 +38,9 @@ class todo:
         }
         headers = header  #获取公共的请求头
         headers.update(uuid=gol.get_value("uuid"),token=gol.get_value("token"))
-        r = requests.post(url=url, data=data, headers=headers, verify=False)
+        r = requests.post(url=url, data=data, headers=headers, verify=False,timeout = timeout)
         self.log.info("创建待办成功，如下是reponse返回的内容")
         self.log.info(r.json())
+        self.log.info(r.elapsed.total_seconds())
 
 

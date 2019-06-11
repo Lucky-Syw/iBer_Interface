@@ -23,3 +23,6 @@ class Todo(unittest.TestCase):
         '''进入计划报告页面'''
         self.todoreport = share_report()
         self.todoreport.get_share_code()
+        # self.todoreport.quan()
+        # self.todoreport.unread()
+

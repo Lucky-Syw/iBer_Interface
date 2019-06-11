@@ -7,7 +7,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 from Common.logs import logging
-from Config.email import readConfig
+from Config import readConfig
 
 report_path = os.getcwd()[:-5] + '/Result/Report' + "/"
 class email_L:

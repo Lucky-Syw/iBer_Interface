@@ -6,5 +6,5 @@
 def write_txt(urls,times):
     path = "/Users/lucky/Desktop/Auto/iBer_Python_Interface/iBer_Interface/Result/"
 
-    with open(path+"API_relult.txt","a") as file:
+    with open(path+"API_result.txt","a") as file:
         file.write(urls+" "+times+"\n")

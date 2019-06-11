@@ -65,5 +65,15 @@ else:
     raise False
   ```  
   
---run_test:运行的执行文件。  
+--run_test:运行的执行文件。 
+
+#测试API接口的请求时长
+1、requests.post中加timeout  
+2、添加：times = str(r.elapsed.total_seconds())  # 获取到响应时间temeout  
+ ```  
+r  = requests.post(url=url, data=data, headers=headers, verify=False, timeout=100000)  
+times = str(r.elapsed.total_seconds())   
+print times   
+  ``` 
+
 

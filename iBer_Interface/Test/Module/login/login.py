@@ -4,6 +4,7 @@ import requests
 from Common import gol
 from Common.logs import logging
 import yaml,sys,os
+import json
 
 
 # 导入yaml中的host
@@ -14,8 +15,7 @@ root_path = os.getcwd()[:-5]
 with open(root_path + "/Config/host_header.yaml", 'rb') as f:
     data = yaml.load(f)
 host = data["host"]
-get_headers = data["headers"]
-logging.info(get_headers)
+timeout = data["timeout"]
 
 class login:
     gol._init()
@@ -28,27 +28,31 @@ class login:
 
         url_Write_excel = url[url.rfind('/v2'):]  #获取非域名外的url链接，最后写入到Excel中
 
+        #"password": "33a7d3da476a32ac237b3f603a1be62fad00299e0d4b5a8db8d913104edec629"   22222222的密码，下方写的是11111111的密码
         data = {
             "mobile": "12606666333",
-            "password": "33a7d3da476a32ac237b3f603a1be62fad00299e0d4b5a8db8d913104edec629"
+            "password": "ee79976c9380d5e337fc1c095ece8c8f22f91f306ceeb161fa51fecede2c4ba1"
         }
         headers = {
-            "version": "2.3.0",
-            "version-id": "235",
-            "device-id": "8BAFD18C-61E3-4BAF-8AB1-0BC16E567633",
-            "time": "1557728866628",
+            "version": "2.3.1",
+            "version-id": "239",
+            "device-id": "6B33C356-CB5F-4F51-B503-36ABA6AD0B02",
+            "time": "1560175716224",
             "channel-id": "001",
             "os": "ios",
             "Accept-Language": "zh-tw",
             "device-name": "iPhoneX",
-            "User-Agent": "iBer/235 CFNetwork/976 Darwin/18.2.0",
+            "User-Agent": "iBer/239 CFNetwork/902.2 Darwin/17.7.0",
             #注：一定不能加content-type，否则报签名错误
             # Content-Type: multipart/form-data; boundary=vHsPJ5s6grMzpmWoZxd3T3o6.LcUWBvUUu0gDNubaf05Ve7kv6bAkH3s_rr0AEc2D6AbEh
-            "sign": "a81b4379f504f330e83792ce2015e629"
+            "sign": "629bb0721dc60ff71725b40f46a3d1b5"
         }
 
-        r = requests.post(url=url, data=data, headers=headers, verify=False,timeout = 50)
+        r = requests.post(url=url, data=data, headers=headers, verify=False,timeout = timeout)
+        get_reponse = r.json() # 获取到reponse返回的所有内容
+        result = json.dumps(get_reponse, encoding="utf-8", ensure_ascii=False)   #将获取到的reponse中的中文已utf-8的格式显示。否则显示Unicode
 
+        self.log.info(result)
         '''
         判断：
         1、根据reponse中的某个值来判断接口返回是否成功，
@@ -61,15 +65,16 @@ class login:
             gol.set_value("uuid", uuid)
             token = str(r.json()["data"]["token"])
             gol.set_value("token", token)
-            version = get_headers["version"]
-            version_id = get_headers["version-id"]
+            # version = get_headers["version"]
+            # version_id = get_headers["version-id"]
         else:
             self.log.error("登录失败")
             raise  False
 
         self.log.info("请求此接口的响应时间："+str(r.elapsed.total_seconds()))
-        self.log.info(r.json())  #打印的reponse返回的所有内容
+        # self.log.info(r.json())  #打印的reponse返回的所有内容
         self.log.info(str(url_Write_excel)+"########")
+
 
 
         ########################获取URL和times(超时时间)数据的写入txt文件#########################

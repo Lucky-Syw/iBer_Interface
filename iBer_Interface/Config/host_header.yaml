@@ -1,10 +1,41 @@
+
+########################## 现有的域名 #######################################
+#正式环境：https://app.iberhk.com/v2/
+#预发布环境：https://expapp.goodiber.com/v2/
+#测试环境：https://testapp.goodiber.com/v2/
+#Dev1测试环境：https://dev1app.goodiber.com/v2/
+#Dev2测试环境：https://dev2app.goodiber.com/v2/
+
+
+
+########################## 测试环境，连接线上数据库，给定uuid测试接口的性能 #######################################
 #请求接口的url的域名
-host: https://dev1app.goodiber.com/v2/   #dev1的测试环境域名
+#host: https://testapp.goodiber.com/   #dev1的测试环境域名
+
+#请求接口的请求头中的共用参数
+#headers:
+#  "version": "2.3.0"
+#  "version-id": "238"
+#  "os": "ios"
+#  "sign": "123456"
+#  "is-test": "1"
+#  "uuid": "67ad7082dccd11e7a6e06c92bf28e3c5"
+#  "token": "aace8130e9049a2c21bd585b53dc042a"
+#  "language": "zh_ch"
+
+########################## 测试环境，通用的headers配置 ######################################
+#请求接口的url的域名
+host: https://testapp.goodiber.com/v2/   #dev1的测试环境域名
+
 
 #请求接口的请求头中的共用参数
 headers:
   "version": "2.3.0"
-  "version-id": "235"
+  "version-id": "238"
   "os": "ios"
   "sign": "123456"
   "is-test": "1"
+
+#设置的超时时间
+timeout: 10
+

@@ -8,10 +8,10 @@ import xlwt
 def write_xls():
     path = "/Users/lucky/Desktop/Auto/iBer_Python_Interface/iBer_Interface/Result/"
     workbook = xlwt.Workbook(encoding="utf-8")
-    sheet = workbook.add_sheet("Sheet1")
+    sheet = workbook.add_sheet("Sheet2")
 
     row = 0
-    with open(path+"API_relult.txt") as  filetxt:
+    with open(path+"API_result.txt") as  filetxt:
      for line in filetxt:
         line = line.strip()
         fileds = line.split(" ")
