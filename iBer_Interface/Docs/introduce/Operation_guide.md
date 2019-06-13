@@ -1,6 +1,6 @@
 markdown常用操作：换行：用2个空格+回车，代码段注释： ``` 来包裹代码段，添加空格：&nbsp;
 
-#常用安装包
+# 常用安装包
     安装方法：pip install xxxx
     1、requests  
     2、logs  
@@ -9,24 +9,24 @@ markdown常用操作：换行：用2个空格+回车，代码段注释： ``` �
     5、xlwt
     
     
-#框架介绍
+# 框架介绍
 
-##-Common
+## -Common
 --gol：全局变量的通用方法封装  
 --HTMLtestrunner：调用的第三方测试报告模板  
 --logs：log的打印日志包  
 
-##-configuration
+## -configuration
 --host_header.yaml：共用请求域名、请求头的共用参数的出处  
 
-##-docs
+## -docs
 --operation_guide:对框架及如何使用的介绍  
 
-##-result
+## -result
 --report：测试报告的存放  
 --run_logs:控制台打印log日志的存放，方便后期排查定位问题，直接打开此文件进行搜索即可  
 
-##-Test
+## -Test
 
 --Case:测试用例  
 ---login：有关login的用例全部写在此文件夹  
@@ -67,7 +67,7 @@ else:
   
 --run_test:运行的执行文件。 
 
-#测试API接口的请求时长
+# 测试API接口的请求时长
 1、requests.post中加timeout  
 2、添加：times = str(r.elapsed.total_seconds())  # 获取到响应时间temeout  
  ```  
